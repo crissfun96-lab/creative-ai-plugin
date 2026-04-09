@@ -1,0 +1,13 @@
+{
+  "name": "creative-ai",
+  "description": "AI Video Production Suite — Seedance Director + AI Series Director",
+  "author": "Chris Fun",
+  "plugins": {
+    "creative-ai": {
+      "name": "creative-ai",
+      "description": "Seedance Director + AI Series Director for Zephyr-level cinematic AI video production",
+      "version": "1.0.0",
+      "path": "."
+    }
+  }
+}

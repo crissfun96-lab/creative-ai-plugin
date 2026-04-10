@@ -147,14 +147,47 @@ dynamic cuts: [wide] → [close-up] → [group] → [individual],
 
 ## PROMPT QUALITY CHECKLIST
 Before outputting any prompt, verify it contains:
+- [ ] Camera body specified (Arri Alexa Mini LF / Alexa 65 / Red Monstro)
+- [ ] Lens type and focal length specified
 - [ ] Camera movement specified
-- [ ] Lighting described
+- [ ] "Light 35mm film grain" mentioned
+- [ ] "Subtle anamorphic flares" mentioned
+- [ ] Lighting: minimum 3 light sources described
 - [ ] Physics/sensory detail (not just visual description)
 - [ ] Character referenced with @Name
 - [ ] Emotional register / personality words
+- [ ] Material textures (oxidized, weathered, wet, aged)
+- [ ] HEX color values (10-15 codes)
+- [ ] 3-4 specific film/director references
+- [ ] Negative prompt (NOT anime, NOT illustration, NOT cartoon, NOT CGI)
 - [ ] Audio trigger (if applicable)
 - [ ] No text/captions/watermarks instruction
-- [ ] 50-70 words (optimal), max 200 words
+
+## CINEMATIC REALISM MULTIPLIERS (ADD TO EVERY PROMPT)
+
+These phrases transform AI-looking output into cinema-looking output:
+
+1. "Shot on Arri Alexa Mini LF with anamorphic primes"
+2. "Light 35mm film grain throughout the frame"
+3. "Subtle horizontal anamorphic lens flare from key light"
+4. "Gentle lens breathing during focus transitions"
+5. "Real practical lighting, NOT computer generated"
+6. "Ultra-photorealistic live-action film still"
+7. "NOT anime, NOT illustration, NOT cartoon, NOT 3D render, NOT game screenshot"
+8. "Captured as if on a real film set with real practical effects"
+9. "8K hyperreal resolution with natural imperfections"
+10. "Tactile material detail — every surface has age, wear, moisture, and texture"
+
+## COMMON MISTAKES THAT KILL REALISM
+
+- Writing "cinematic" instead of naming specific films
+- Missing camera body and lens specifications
+- No film grain instruction (defaults to CGI look)
+- No HEX values (defaults to oversaturated RGB)
+- Smooth plastic textures (real cinema has weathered surfaces)
+- "She does X" instead of "X causes physical reaction Y in her body"
+- No negative prompt blocking anime/illustration tendencies
+- Character descriptions without emotional register words
 
 ## BAD vs GOOD
 | Bad | Good | Why |
